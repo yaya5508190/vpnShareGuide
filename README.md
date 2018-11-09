@@ -65,7 +65,7 @@ answer VNET_1_VIRTUAL_ADAPTER_ADDR 192.168.137.100 #随意设置为该网段的�
 
 ### 7.为宿主机增加路由
 
- 将虚拟机中vpn的虚拟ip在宿主机中增加路由,以及你要访问的服务的IP
+ 将虚拟机中vpn的虚拟ip,以及你要访问的服务的IP,增加到宿主机的路由中
 
 ```shell
 sudo route add -net <IP/NETMASK> <VM HostOnly IP>
