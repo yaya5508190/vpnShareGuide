@@ -51,7 +51,7 @@ sudo vim /Library/Preferences/VMware\ Fusion/networking
 answer VNET_1_DHCP no
 answer VNET_1_HOSTONLY_NETMASK 255.255.255.0
 answer VNET_1_HOSTONLY_SUBNET 192.168.137.0 #修改成步骤3中HostOnly网卡IP为同一网段
-answer VNET_1_VIRTUAL_ADAPTER_ADDR 192.168.137.100 #随意设置为该网段的一台ip
+answer VNET_1_VIRTUAL_ADAPTER_ADDR 192.168.137.100 #随意设置为该网段的一台ip
 ```
 
 ### 5.vpn客户端安装
